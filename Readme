@@ -1,0 +1,18 @@
+O que é o CQRS
+CQRS é a sigla para Command and Queries Responsability Segregation, ou traduzido para o português, Separação de Responsabilidades em Consultas e Comandos.
+Podemos interpretar as consultas como a parte de leitura da nossa aplicação e comandos como a parte de escrita, para facilitar nosso entendimento aqui.
+Pensando desta forma, quando sabemos o que é CQRS, parece até óbvio, afinal em nossas quase nunca são balanceadas, ou tem muita leitura, ou tem muita escrita.
+Particularmente, vejo que na maioria dos casos temos mais leitura do que escrita, como um exemplo de um eCommerce, onde navegamos por horas (Leitura apenas) e,
+só fechamos o pedido uma vez (Escrita).
+Agora que sabemos a parte fácil, vamos partir para implementação.
+
+Iniciando a API
+Para este exemplo vou construir tudo dentro da API mesmo, apenas em pastas separadas.
+Desta forma, navegue para uma pasta segura e execute o comando abaixo para criar uma nova API.
+
+dotnet new webapi -o Shop
+
+Em seguida, abra a aplicação com o Visual Studio Code para iniciarmos o desenvolvimento.
+
+dotnet add package MediatR
+dotnet add package MediatR.Extensions.Microsoft.DependencyInjection
