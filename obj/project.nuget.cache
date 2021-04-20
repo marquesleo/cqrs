@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ezIvrG6zPX7KxLdy/bQ+rJlR2hYVfPIfyCv6UxNpcbBCWFew8g+3oq+enEnRVdBIgTwW41MTZDmmrlAtPHg9wg==",
+  "success": true,
+  "projectFilePath": "C:\\Fontes_Leonardo\\Shop\\Shop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dsnpack\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\dsnpack\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\dsnpack\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
